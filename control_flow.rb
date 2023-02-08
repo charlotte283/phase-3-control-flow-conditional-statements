@@ -1,12 +1,12 @@
 def admin_login(username, password)
   if username=="admin"  && password== "12345"
-    puts "Access granted"
+     "Access granted"
 
   elsif username=="ADMIN" && password =="12345"
-    puts "Access granted"
+     "Access granted"
 
   else
-    puts "Access denied"
+     "Access denied"
   end
 end
 
@@ -14,16 +14,16 @@ end
 def hows_the_weather(temperature)
   # your code here
   if temperature <40
-    puts "It's brisk out there!"
+     "It's brisk out there!"
 
     elsif temperature >= 40 && temperature<=65
-    puts "It's a little chilly out there!"
+    "It's a little chilly out there!"
 
     elsif temperature >85
-    puts "It's too dang hot out there!"
+     "It's too dang hot out there!"
 
     else
-    puts "It's perfect out there!"
+     "It's perfect out there!"
 
   end
 end
@@ -31,13 +31,13 @@ end
 def fizzbuzz(num)
   # your code here
   if num % 3 ==0 && num % 5 ==0
-    puts "FizzBuzz"
+    "FizzBuzz"
   elsif num % 3 ==0
-    puts "Fizz"
+    "Fizz"
   elsif num % 5==0
-    puts "Buzz"
+     "Buzz"
   else 
-    puts num
+     num
   end
 end
 
